@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 
 class Category extends StatelessWidget {
@@ -14,7 +12,6 @@ class Category extends StatelessWidget {
     return Material(
       color: Colors.transparent,
       child: Container(
-        padding: EdgeInsets.all(3.0),
         height: 100,
         child: InkWell(
           borderRadius: BorderRadius.circular(50),
@@ -24,7 +21,7 @@ class Category extends StatelessWidget {
             print('I was tapped!');
           },
           child: Padding(
-            padding: EdgeInsets.all(7.0),
+            padding: EdgeInsets.all(8.0),
             child: Row(
               children: [
                 Padding(
